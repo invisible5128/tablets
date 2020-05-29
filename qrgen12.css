@@ -1,0 +1,60 @@
+body{
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#container{
+    width: 280px;
+    top: 10%;
+    left:20%;
+    position: absolute;
+    color: white;
+    /*transform: translate(-50%,-50%);*/
+}
+#textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid brown;
+}
+#textbox input
+{
+
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    float: left;
+    font-size: 18px;
+    width: 300px;
+    margin: 0 10px;
+
+}
+#qrcode
+{
+    border: 1px solid white;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 20px;
+    
+    top: 40%;
+    left:70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+/*#qrcode img
+{
+    width: 35px;
+    height: 35px;
+}*/
+#qrcode canvas
+{
+    width: 0px;
+    height: 0px;
+}
+
